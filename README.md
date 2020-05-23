@@ -1,5 +1,10 @@
 # What Happen
 
+[![Travis CI build](https://img.shields.io/travis/shootingfly/what_happen/master.svg?style=flat-square)](https://travis-ci.org/shootingfly/what_happen)
+[![Built with Crystal](https://img.shields.io/badge/built%20with-crystal-000000.svg?style=flat-square)](https://crystal-lang.org/)
+[![Latest release](https://img.shields.io/github/release/shootingfly/what_happen.svg?style=flat-square)](https://github.com/shootingfly/what_happen/releases)
+[![API docs](https://img.shields.io/badge/api_docs-online-brightgreen.svg?style=flat-square)](https://shootingfly.github.io/what_happen/)
+
 Tell you what happen when x changes to y.
 
 Work on methods without any arguments or all arguments have default values.
