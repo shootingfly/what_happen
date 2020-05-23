@@ -1,8 +1,8 @@
-name: suggest
+name: what_happen
 version: 0.1.0
 
 authors:
-  - Shootingfly <xiefei@yolanda.hk>
+  - Shootingfly
 
 crystal: 0.34.0
 

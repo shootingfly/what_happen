@@ -3,7 +3,9 @@
 /bin/
 /.shards/
 *.dwarf
-
+/.vscode/
+.DS_Store
+/tmp/
 # Libraries don't need dependency lock
 # Dependencies will be locked in applications that use them
 /shard.lock
