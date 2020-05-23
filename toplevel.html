@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Crystal Docs 0.33.0">
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/doc.js"></script>
+
+<svg class="hidden">
+  <symbol id="octicon-link" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+  </symbol>
+</svg>
+
+  <meta id="repository-name" content="github.com/shootingfly/what_happen">
+  <title>Top Level Namespace - github.com/shootingfly/what_happen</title>
+  <script type="text/javascript">
+    CrystalDoc.base_path = "";
+  </script>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar-header">
+    <div class="search-box">
+      <input type="search" class="search-input" placeholder="Search..." spellcheck="false" aria-label="Search">
+    </div>
+
+    <div class="repository-links">
+      <a href="index.html">README</a>
+    </div>
+  </div>
+
+  <div class="search-results" class="hidden">
+    <ul class="search-list"></ul>
+  </div>
+
+  <div class="types-list">
+    <ul>
+  
+  <li class=" current" data-id="github.com/shootingfly/what_happen/toplevel" data-name="top level namespace">
+      <a href="toplevel.html">Top Level Namespace</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/shootingfly/what_happen/Number" data-name="number">
+      <a href="Number.html">Number</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/shootingfly/what_happen/Object" data-name="object">
+      <a href="Object.html">Object</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/shootingfly/what_happen/WhatHappen" data-name="whathappen">
+      <a href="WhatHappen.html">WhatHappen</a>
+      
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+
+<div class="main-content">
+<h1 class="type-name">
+
+  Top Level Namespace
+
+</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>
+    <a id="defined-in" class="anchor" href="#defined-in">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Defined in:
+  </h2>
+  
+
+
+
+
+
+
+
+  <h2>
+    <a id="method-summary" class="anchor" href="#method-summary">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Method Summary
+  </h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#what_happen(from,to):Array(String)-class-method" class="signature"><strong>what_happen</strong>(from, to) : Array(String)</a>
+        
+          <div class="summary"><p>Tells you what happen from x to y</p></div>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+  <h2>
+    <a id="macro-summary" class="anchor" href="#macro-summary">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Macro Summary
+  </h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#generate_what_happen_by_ancestors-macro" class="signature"><strong>generate_what_happen_by_ancestors</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#generate_what_happen_by_self-macro" class="signature"><strong>generate_what_happen_by_self</strong></a>
+        
+      </li>
+    
+  </ul>
+
+
+
+<div class="methods-inherited">
+  
+</div>
+
+
+
+
+  <h2>
+    <a id="method-detail" class="anchor" href="#method-detail">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Method Detail
+  </h2>
+  
+    <div class="entry-detail" id="what_happen(from,to):Array(String)-class-method">
+      <div class="signature">
+        
+        def <strong>what_happen</strong>(from, to) : Array(String)
+
+        <a class="method-permalink" href="#what_happen(from,to):Array(String)-class-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Tells you what happen from x to y</p>
+
+<pre><code>what_happen(from: <span class="n">false</span>, to: <span class="s">&quot;false&quot;</span>)   <span class="c"># =&gt; [&quot;to_s&quot;, &quot;inspect&quot;, &quot;pretty_inspect&quot;]</span>
+what_happen(from: <span class="n">1</span>, to: <span class="n">-1</span>)            <span class="c"># =&gt; [&quot;-&quot;]</span>
+what_happen(from: {<span class="n">1</span>, <span class="n">2</span>, <span class="n">3</span>}, to: <span class="n">1</span>)     <span class="c"># =&gt; [&quot;first&quot;, &quot;first?&quot;, &quot;min&quot;, &quot;min?&quot;]</span>
+what_happen(from: {a: <span class="n">1</span>}, to: {<span class="n">:a</span>})     <span class="c"># =&gt; [&quot;keys&quot;, &quot;sorted_keys&quot;]</span>
+what_happen(from: [<span class="n">1</span>, <span class="n">2</span>], to: <span class="n">1</span>)        <span class="c"># =&gt; [&quot;first&quot;, &quot;first?&quot;, &quot;min&quot;, &quot;min?&quot;]</span>
+what_happen(from: [<span class="n">1</span>, <span class="n">2</span>, <span class="n">3</span>], to: <span class="n">3</span>)     <span class="c"># =&gt; [&quot;size&quot;, &quot;last&quot;, &quot;last?&quot;, &quot;max&quot;, &quot;max?&quot;]</span>
+what_happen(from: <span class="s">&quot;hello&quot;</span>, to: <span class="s">&quot;HELLO&quot;</span>) <span class="c"># =&gt; [&quot;upcase&quot;]</span>
+what_happen(from: <span class="s">&quot;Hello&quot;</span>, to: <span class="s">&quot;hello&quot;</span>) <span class="c"># =&gt; [&quot;downcase&quot;, &quot;underscore&quot;]</span></code></pre>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/shootingfly/what_happen/blob/30247bd0e2b60a4a81567757e68981a03b0fc504/src/what_happen.cr#L15" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+
+  <h2>
+    <a id="macro-detail" class="anchor" href="#macro-detail">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Macro Detail
+  </h2>
+  
+    <div class="entry-detail" id="generate_what_happen_by_ancestors-macro">
+      <div class="signature">
+        
+        macro <strong>generate_what_happen_by_ancestors</strong>
+
+        <a class="method-permalink" href="#generate_what_happen_by_ancestors-macro">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/shootingfly/what_happen/blob/30247bd0e2b60a4a81567757e68981a03b0fc504/src/what_happen/macro.cr#L16" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="generate_what_happen_by_self-macro">
+      <div class="signature">
+        
+        macro <strong>generate_what_happen_by_self</strong>
+
+        <a class="method-permalink" href="#generate_what_happen_by_self-macro">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/shootingfly/what_happen/blob/30247bd0e2b60a4a81567757e68981a03b0fc504/src/what_happen/macro.cr#L5" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+</div>
+
+</body>
+</html>
